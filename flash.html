@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #ffffff;
+      }
+      button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="setGreenColor()">YES</button>
+    <button onclick="setRedColor()">NO</button>
+    <script>
+        function setRedColor() {
+            document.body.style.backgroundColor = "#FF0000"
+            document.button.style.backgroundColor = "#FF0000"
+        }
+        function setGreenColor() {
+            document.body.style.backgroundColor = "#00FF00"
+            document.button.style.backgroundColor = "#FF0000"
+        }
+    </script>
+  </body>
+</html>
